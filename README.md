@@ -1,6 +1,6 @@
 # Unlocking-Raycast-With-Surge
 
-利用 Surge 的 MiTM 功能拦截请求，并利用 Docker 服务模拟后端操作，从而实现 Raycast 的激活。
+利用 Surge  MiTM 功能拦截请求，并利用 Docker 服务模拟后端操作，从而实现 Raycast 的激活。
 
 Docker 服务是一个简单的 [Raycast](https://raycast.com/) 的 API 代理。它允许您在不订阅的情况下使用包括 [Raycast AI](https://raycast.com/ai) 、翻译、同步在内的 Pro 功能（但是都需要你拥有自己的 API Key）。实现原理如下：
 
